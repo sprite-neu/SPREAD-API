@@ -192,14 +192,14 @@ multiple instances of the same transmission type are allowed.
 
 ## Reference our project
 
-For any use of this project for research, academic publications, or other publications which include a bibliography, please include the citations in the [](bibtex) file. 
+For any use of this project for research, academic publications, or other publications which include a bibliography, please include the citations in the [https://github.com/sprite-neu/SPREAD-API/blob/master/ref.bib](bibtex) file. 
 This is the reference for the dataset only:
 
 <code>
-        @electronic{spread:project,
-                author = {Nguyen, Hai N and Vomvas, Marinos and Vo-Huu, Triet and Noubir, Guevara},
-                title = {SPREAD: An Open Dataset for Spectro-Temporal RF Identification},
-                url = {https://sprite.ccs.neu.edu/datasets/SPREAD/},
-                year = {2023}
-        }       
+@electronic{spread:project,
+        author = {Nguyen, Hai N and Vomvas, Marinos and Vo-Huu, Triet and Noubir, Guevara},
+        title = {SPREAD: An Open Dataset for Spectro-Temporal RF Identification},
+        url = {https://sprite.ccs.neu.edu/datasets/SPREAD/},
+        year = {2023}
+}       
 </code>
