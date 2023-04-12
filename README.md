@@ -37,7 +37,7 @@ dataset\
      ├── rec_1.json\
      ├── rec_2.32fc\
      ├── rec_2.json\
-     │  ...  ...
+     │  ...  ...\
 └── anechoic_data\
      ├── rec_154.32fc\
      ├── rec_154.json\
