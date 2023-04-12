@@ -77,25 +77,25 @@ python2.7 print_dataset.py --dataset /path/to/dataset/root --recordings rec_12 s
 python2.7 print_dataset.py --dataset /path/to/dataset/root --contents --no-show
 ```
 
-#### Augment dataset
+#### Create synthetic data
 
-`augment_dataset.py`
+`create_synthetic.py`
 
-Augment the dataset by creating synthetic emissions.
+Create synthetic data using cropped emission data and background
 
 ```
---categories wifi, bt: Type of synthetic emission to create. Specifying two categories simulates an emission.  
+--categories 0 1 2 3 4: Type of synthetic emission to create. Specifying two categories simulates an emission.  0: Wi-fi, 1: Bluetooth, 2: ZigBee, 3: Lightbridge, 4: Wmic
 
---snr-range -10 0 10: SNR values for the synthetic emissions
+--snr-range : SNR values for the synthetic emissions
 
---length-range 62 512: Range for adjustment of emissions length
+--length-range : Range for adjustment of emissions length
 
---length-step 15: Length adjustment step (for 100MHz recordings, a step of 10 corresponds to ~50us)
+--length-step : Length adjustment step (for 100MHz recordings, a step of 10 corresponds to ~50us)
 ```
 
 Example:
 ```
-python2.7 augment_dataset.py --categories 1 --save-path /path/to/save/directory
+python2.7 create_synthetic.py --categories 1 --save-path /path/to/save/directory
 ```
 
 #### Generate pictures

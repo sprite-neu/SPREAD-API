@@ -359,7 +359,7 @@ def gen_synthetic_data(category, save_path, snr_range=None, nfft=512, nlines=512
 
 def main():
     """ Parse args """
-    parser = argparse.ArgumentParser(description="Augment the dataset by creating synthetic emissions.",
+    parser = argparse.ArgumentParser(description="Create synthetic emission data.",
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--save-path", type=str, required=True,
                         help="Directory path to save data.")
