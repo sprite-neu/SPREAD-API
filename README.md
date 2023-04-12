@@ -192,7 +192,7 @@ multiple instances of the same transmission type are allowed.
 
 ## Reference our project
 
-For any use of this project for research, academic publications, or other publications which include a bibliography, please include the citations in the [https://github.com/sprite-neu/SPREAD-API/blob/master/ref.bib](bibtex) file. 
+For any use of this project for research, academic publications, or other publications which include a bibliography, please include the citations in the [Bibtex](https://github.com/sprite-neu/SPREAD-API/blob/master/ref.bib) file. 
 This is the reference for the dataset only:
 
 <code>
